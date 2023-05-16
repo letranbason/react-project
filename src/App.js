@@ -9,6 +9,12 @@ function App() {
     <div className='app-container'>
       <Header></Header>
       <Container>
+
+        <div className="my-3 d-flex justify-content-between'">
+          <span className=''>Users List:</span>
+          <button className='btn btn-success'> Add User</button>
+        </div>
+        
         <TableUsers></TableUsers>
       </Container>
     </div>
